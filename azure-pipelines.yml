@@ -21,8 +21,3 @@ steps:
   displayName: 'npm install and build'
 
 - script: npm install --only=dev
-
-- task: Npm@1
-  inputs:
-  command: 'install'
-  
